@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=gpColor+!;MADE+BY+GRANDPA+EJ+DEVELOPER!;TERMINAL+COLOR+WITH+RGB+AND+HEX+CODE+FEATURE!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=gpColor+!;MADE+BY+GRANDPA+EJ!;TERMINAL+COLOR+WITH+RGB+AND+HEX+CODE+FEATURE!)
 # gpColor
 
 gpColor is a Python module for applying ANSI, RGB and HEX colors in terminal output.
