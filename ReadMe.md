@@ -5,7 +5,7 @@ gpColor is a Python module for applying ANSI, RGB and HEX colors in terminal out
 ## Installation
 
 ```bash
-pip install colorizer
+pip install gpColor
 ```
 ## Usage
 
