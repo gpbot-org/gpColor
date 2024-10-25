@@ -11,7 +11,7 @@ gpColor is a Python module for applying ANSI, RGB and HEX colors in terminal out
 git clone https://github.com/gpbot-org/gpColor
 cd gpColor
 
-python setup.py
+python setup.py install
 ```
 ## Usage
 
