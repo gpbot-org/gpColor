@@ -27,6 +27,9 @@ class Color:
         """
         Convert a color specification to the corresponding ANSI escape code.
         - color: Can be a named ANSI color, an RGB tuple, HEX code, or RGBA.
+
+        The First time i added RGBA 😁😁
+        but it's not working for Terminal 😆😆
         """
         if isinstance(color, tuple) and len(color) == 3:  # RGB
             return Color.rgb_to_ansi(color, foreground)
@@ -72,23 +75,9 @@ class Color:
         else:
             return f'\033[{code + 10}m'  # Background code is foreground + 10
 
-# Utility function for easy use
+# Utility function for all in one 😆
 def colorize(text, font=None, back=None):
     """
     Apply custom RGB/HEX/ANSI colors to text using the Color class.
     """
     return Color(text, font=font, back=back).apply()
-
-
-# Example usage:
-#if __name__ == "__main__":
-#    # ANSI Named Colors
-#    print(colorize("This is bright red text", font='bright_red'))
-#    print(colorize("This is blue text with yellow background", font='blue', back='yellow'))
-#
-#    # RGB Colors
-#    print(colorize("This is RGB white text on black background", font=(255, 255, 255), back=(0, 0, 0)))
-#    print(colorize("This is RGB green text", font=(0, 255, 0)))
-#
-#    # HEX Colors
-#    print(colorize("This is HEX red text on blue background", font="#FF0000", back="#0000FF"))
