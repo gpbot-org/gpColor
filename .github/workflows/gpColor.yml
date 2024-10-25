@@ -1,4 +1,4 @@
-name: 
+name: gpColor
 on: [pull_request, push]
 jobs:
   gpColor:
