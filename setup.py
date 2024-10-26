@@ -6,12 +6,11 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='gpColor',
-    version='1.0.0',
+    version='1.0.1',
     description='A Python module to apply ANSI, RGB and HEX colors in terminal output.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Grandpa EJ',
-    author_email='aizoro690@gmail.com',
     url='https://github.com/gpbot-org/gpColor',
     license='MIT',
     packages=find_packages(),
