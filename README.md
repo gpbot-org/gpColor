@@ -4,9 +4,9 @@
 gpColor is a Python module for applying ANSI, RGB and HEX colors in terminal output.
 
 ## Installation
-
+<b>install via pip</b>
 ```bash
-❌pip install gpColor
+pip install gpColor
 ```
 ```bash
 git clone https://github.com/gpbot-org/gpColor
